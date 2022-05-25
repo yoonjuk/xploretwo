@@ -35,7 +35,7 @@ public class ThrowRocks : MonoBehaviour
         {
             //attack code here
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.forward * 7f, ForceMode.Impulse);
             rb.AddForce(transform.up * 6f, ForceMode.Impulse);
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
