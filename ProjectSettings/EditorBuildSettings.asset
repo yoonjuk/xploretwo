@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Environment/Colossal Gladiator Arena/Sample Scene.unity
+    guid: 888c0af3909b0b64e9502f0e4ab5a761
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 852fdf66be3d84551a1cc1ba691e6188,
       type: 2}
